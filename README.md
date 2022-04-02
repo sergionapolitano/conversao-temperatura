@@ -41,7 +41,7 @@ k3d cluster create teste --servers 3 --agents 3 -p "8080:30000@loadbalancer"
 ```
 
 _Realizando deploy da aplicação web no cluster. Ajuste o arquivo para a quantidade de pods desejada_
-# ANTES DE REALIZAR O DEPLOY, ALTERE O ARQUIVO _deployment.yaml_ E DEFINA CORRETAMENTE A IMAGEM DE CONTAINERS QUE SERÁ UTILIZADA
+## ANTES DE REALIZAR O DEPLOY, ALTERE O ARQUIVO _deployment.yaml_ E DEFINA CORRETAMENTE A IMAGEM DE CONTAINERS QUE SERÁ UTILIZADA
 ```sh
 kubectl apply -f deployment.yaml
 ```
