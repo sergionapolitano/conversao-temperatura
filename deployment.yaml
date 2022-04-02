@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: meudeployment
+  name: web
 spec:
   replicas: 10
   selector:
