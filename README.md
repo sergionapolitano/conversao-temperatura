@@ -1,6 +1,7 @@
 # conversao-temperatura
 
-## _Exemplo de execução do projeto conversao-temperatura em um cluster kubernetes usando a solução k3d como gerenciador de clusters da distro k3s_
+## _Exemplo de execução de um app em cluster kubernetes_
+####  _Neste projeto teste o k3d foi utilizado para gerenciar clusters da distro k3s_
 
 ## Pré-requisitos:
 
