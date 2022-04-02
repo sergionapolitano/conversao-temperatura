@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: account4hub/conversao-temperatura:latest
+          image: sua-conta-no-docker-hub/conversao-temperatura:latest
           ports:
             - containerPort: 8080
 ---
