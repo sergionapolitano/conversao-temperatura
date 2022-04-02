@@ -37,7 +37,7 @@ docker container rm -f teste-ct
 ## _Subindo o cluster Kubernetes utilizando as ferramentas k3d e kubectl_
 _Iniciando cluster com 3 servers e 3 agents, onde o loadbalancer vai "ouvir" na porta 8080 do ip da rede local._
 ```sh
-k3d cluster create teste --servers 3 --agents 3 -p "8080:30000@loadbalancer
+k3d cluster create teste --servers 3 --agents 3 -p "8080:30000@loadbalancer"
 ```
 
 _Realizando deploy da aplicação web no cluster. Ajuste o arquivo para a quantidade de pods desejada_
