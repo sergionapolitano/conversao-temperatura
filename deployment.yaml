@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: sua-conta-no-docker-hub/conversao-temperatura:latest
+          image: account4hub/conversao-temperatura:latest
           ports:
             - containerPort: 8080
 ---
@@ -31,4 +31,4 @@ spec:
       port: 8080
       targetPort: 8080
       nodePort: 30000
-  type: NodePort
+  type: LoadBalancer
